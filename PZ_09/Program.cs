@@ -20,7 +20,7 @@
         {
             char[] charArray = str.ToCharArray(); // Преобразование строки в массив символов
             Array.Reverse(charArray);             // Переворачивание массива символов
-            return new string(charArray);         // Преобразование массива символов обратно в строку
+            return new string(charArray);         // Преобразование массива символов обратно в строку.
         }
     }
 }
